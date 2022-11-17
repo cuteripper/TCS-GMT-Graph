@@ -115,7 +115,7 @@ if __name__ == '__main__':
     
     properties_df = get_properties(ingredients_df.iloc[0:3])
 
-    functionalites_df = get_functionalities(ingredients_df.iloc[0:3],functionality_file_name)
+    functionalites_df = get_functionalities(ingredients_df.iloc,functionality_file_name)
 
     properties_df.to_csv("All_wiki_properties.csv")
     functionalites_df.to_csv("All_wiki_functionalities.csv")
