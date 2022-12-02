@@ -1,0 +1,94 @@
+,Molecular Weight,Name,XLogP3,Hydrogen Bond Donor Count,Hydrogen Bond Acceptor Count,Rotatable Bond Count,Exact Mass,Monoisotopic Mass,Topological Polar Surface Area,Heavy Atom Count,Formal Charge,Complexity,Isotope Atom Count,Defined Atom Stereocenter Count,Undefined Atom Stereocenter Count,Defined Bond Stereocenter Count,Undefined Bond Stereocenter Count,Covalently-Bonded Unit Count,Compound Is Canonicalized
+0,3g/mol,ABIETIC ACID,4.8,1,2,2,3g/mol,3g/mol,37.3,22,0,542.0,0,4,0,0,0,1,Y
+1,2g/mol,ABIETYL ALCOHOL,4.9,1,1,2,2g/mol,2g/mol,20.2,21,0,472.0,0,4,0,0,0,1,Y
+2,4g/mol,ACETALDEHYDE,-0.3,0,1,0,4g/mol,4g/mol,17.1,3,0,10.3,0,0,0,0,0,1,Y
+3,1g/mol,ACETAMIDE MEA,-1.1,2,2,2,1g/mol,1g/mol,49.3,7,0,62.7,0,0,0,0,0,1,Y
+4,2g/mol,ACETAMIDOETHOXYBUTYL TRIMONIUM CHLORIDE,,1,3,8,2g/mol,2g/mol,38.3,16,0,176.0,0,0,0,0,0,2,Y
+5,1g/mol,ACETAMINOPHEN,0.5,2,2,1,1g/mol,1g/mol,49.3,11,0,139.0,0,0,0,0,0,1,Y
+6,2g/mol,ACETAMINOSALOL,2.6,2,4,4,2g/mol,2g/mol,75.6,20,0,350.0,0,0,0,0,0,1,Y
+7,1g/mol,ACETANILID,1.2,1,1,1,1g/mol,1g/mol,29.1,10,0,116.0,0,0,0,0,0,1,Y
+8,6g/mol,ACETIC ACID,-0.2,1,2,0,6g/mol,6g/mol,37.3,4,0,31.0,0,0,0,0,0,1,Y
+9,5g/mol,ACETONE,-0.1,0,1,0,5g/mol,5g/mol,17.1,4,0,26.3,0,0,0,0,0,1,Y
+10,1g/mol,ACETYL CYSTEINE,0.4,3,4,3,1g/mol,1g/mol,67.4,10,0,148.0,0,1,0,0,0,1,Y
+11,2g/mol,ACETYL GLUCOSAMINE,-2.8,5,7,2,2g/mol,2g/mol,133.0,15,0,260.0,0,4,1,0,0,1,Y
+12,1g/mol,ACETYL GLUTAMIC ACID,-1.8,3,5,5,1g/mol,1g/mol,104.0,13,0,225.0,0,1,0,0,0,1,Y
+13,1g/mol,ACETYL GLUTAMINE,-1.4,3,4,5,1g/mol,1g/mol,110.0,13,0,227.0,0,1,0,0,0,1,Y
+14,2g/mol,ACETYL HEXAMETHYL INDAN,4.8,0,1,1,2g/mol,2g/mol,17.1,18,0,353.0,0,0,1,0,0,1,Y
+15,2g/mol,ACETYL HEXAMETHYL TETRALIN,5.3,0,1,1,2g/mol,2g/mol,17.1,19,0,366.0,0,0,1,0,0,1,Y
+16,1g/mol,ACETYL METHIONINE,0.1,2,4,5,1g/mol,1g/mol,91.7,12,0,172.0,0,1,0,0,0,1,Y
+17,2g/mol,ACETYL TYROSINE,-0.2,3,4,4,2g/mol,2g/mol,86.6,16,0,259.0,0,1,0,0,0,1,Y
+18,6g/mol,ACETYLATED SUCROSE DISTEARATE,,10,15,21,6g/mol,6g/mol,264.0,47,0,628.0,0,9,0,0,0,3,Y
+19,3g/mol,ACHILLEA MILLEFOLIUM OIL,2.4,0,3,1,3g/mol,3g/mol,43.4,24,0,664.0,0,0,8,0,0,1,Y
+20,6g/mol,ACID BLACK 1,,2,14,4,6g/mol,6g/mol,273.0,41,0,1110.0,0,0,0,0,0,3,Y
+21,1g/mol,ACID BLACK 52,,6,27,6,1g/mol,1g/mol,530.0,98,0,782.0,0,0,0,0,0,8,Y
+22,5g/mol,ACID BLUE 1,,0,7,7,5g/mol,5g/mol,137.0,38,0,1040.0,0,0,0,0,0,2,Y
+23,1g/mol,ACID BLUE 3,,2,16,14,1g/mol,1g/mol,315.0,77,0,1070.0,0,0,0,0,0,3,Y
+24,7g/mol,ACID BLUE 9,,3,11,11,7g/mol,7g/mol,198.0,52,0,1630.0,0,0,0,0,0,2,Y
+25,4g/mol,ACID BLUE 62,,2,7,3,4g/mol,4g/mol,138.0,29,0,734.0,0,0,0,0,0,2,Y
+26,4g/mol,ACID BLUE 74,,2,9,1,4g/mol,4g/mol,197.0,30,0,877.0,0,0,0,0,0,3,Y
+27,8g/mol,ACID BROWN 13,,4,16,10,8g/mol,8g/mol,313.0,59,0,1550.0,0,0,0,0,0,3,Y
+28,8g/mol,ACID GREEN 1,,0,18,0,8g/mol,8g/mol,354.0,55,0,377.0,0,0,0,0,0,7,Y
+29,6g/mol,ACID GREEN 25,,2,10,4,6g/mol,6g/mol,189.0,42,0,1060.0,0,0,0,0,0,3,Y
+30,5g/mol,ACID GREEN 50,,1,8,3,5g/mol,5g/mol,158.0,39,0,1140.0,0,0,0,0,0,2,Y
+31,4g/mol,ACID ORANGE 3,,2,9,4,4g/mol,4g/mol,181.0,31,0,698.0,0,0,0,0,0,2,Y
+32,3g/mol,ACID ORANGE 6,,2,7,3,3g/mol,3g/mol,131.0,21,0,445.0,0,0,0,0,0,2,Y
+33,3g/mol,ACID ORANGE 7,,1,6,3,3g/mol,3g/mol,111.0,24,0,529.0,0,0,0,0,0,2,Y
+34,4g/mol,ACID ORANGE 24,,2,9,5,4g/mol,4g/mol,149.0,31,0,873.0,0,0,0,2,0,2,Y
+35,5g/mol,ACID RED 14,,1,9,2,5g/mol,5g/mol,176.0,33,0,854.0,0,0,0,0,0,3,Y
+36,6g/mol,ACID RED 18,,1,12,2,6g/mol,6g/mol,242.0,38,0,1080.0,0,0,0,0,0,4,Y
+37,6g/mol,ACID RED 27,,1,12,2,6g/mol,6g/mol,242.0,38,0,1080.0,0,0,0,0,0,4,Y
+38,4g/mol,ACID RED 33,,2,10,2,4g/mol,4g/mol,202.0,30,0,757.0,0,0,0,0,0,3,Y
+39,5g/mol,ACID RED 35,,2,10,3,5g/mol,5g/mol,205.0,34,0,901.0,0,0,0,0,0,3,Y
+40,5g/mol,ACID RED 52,,0,8,6,5g/mol,5g/mol,147.0,39,0,1150.0,0,0,0,0,0,2,Y
+41,5g/mol,ACID RED 73,,1,11,4,5g/mol,5g/mol,201.0,37,0,952.0,0,0,0,0,0,3,Y
+42,8g/mol,ACID RED 92,,0,5,0,8g/mol,8g/mol,81.6,35,0,780.0,0,0,0,0,0,3,Y
+43,6g/mol,ACID RED 95,,0,5,0,6g/mol,6g/mol,81.6,29,0,585.0,0,0,0,0,0,3,Y
+44,4g/mol,ACID RED 195,,2,8,4,4g/mol,4g/mol,143.0,31,0,837.0,0,0,0,0,0,2,Y
+45,6g/mol,ACID VIOLET 9,,2,7,5,6g/mol,6g/mol,131.0,44,0,1050.0,0,0,0,0,0,2,Y
+46,4g/mol,ACID VIOLET 43,,2,7,3,4g/mol,4g/mol,132.0,30,0,768.0,0,0,0,0,0,2,Y
+47,3g/mol,ACID YELLOW 1,,0,8,0,3g/mol,3g/mol,180.0,23,0,519.0,0,0,0,0,0,3,Y
+48,4g/mol,ACID YELLOW 3,,0,9,1,4g/mol,4g/mol,178.0,31,0,853.0,0,0,0,0,0,3,Y
+49,5g/mol,ACID YELLOW 23,,3,12,6,5g/mol,5g/mol,220.0,34,0,981.0,0,0,1,0,0,4,Y
+50,2g/mol,ACRYLATES COPOLYMER,,1,6,6,2g/mol,2g/mol,89.9,20,0,254.0,0,0,0,0,0,3,Y
+51,2g/mol,ADENOSINE,-1.1,4,8,2,2g/mol,2g/mol,140.0,19,0,335.0,0,4,0,0,0,1,Y
+52,3g/mol,ADENOSINE PHOSPHATE,-3.5,5,11,4,3g/mol,3g/mol,186.0,23,0,481.0,0,4,0,0,0,1,Y
+53,5g/mol,ADENOSINE TRIPHOSPHATE,-5.7,7,17,8,5g/mol,5g/mol,279.0,31,0,800.0,0,4,0,0,0,1,Y
+54,1g/mol,ADIPIC ACID,0.1,2,4,5,1g/mol,1g/mol,74.6,10,0,114.0,0,0,0,0,0,1,Y
+55,3g/mol,AGAR,-2.2,4,9,4,3g/mol,3g/mol,127.0,23,0,408.0,0,6,4,0,0,1,Y
+56,6g/mol,AGAROSE,-6.5,10,19,8,6g/mol,6g/mol,285.0,43,0,946.0,0,20,0,0,0,1,Y
+57,8g/mol,ALANINE,-3.0,2,4,1,8g/mol,8g/mol,63.3,6,-1,61.8,0,1,0,0,0,1,Y
+58,2g/mol,ALANINE GLUTAMATE,-3.8,4,6,6,2g/mol,2g/mol,130.0,15,0,266.0,0,2,0,0,0,1,Y
+59,3g/mol,ALCLOXA,,7,9,1,3g/mol,3g/mol,124.0,18,0,236.0,0,0,1,0,0,8,Y
+60,4g/mol,ALCOHOL,-0.1,1,1,0,4g/mol,4g/mol,20.2,3,0,2.8,0,0,0,0,0,1,Y
+61,3g/mol,ALEURITIC ACID,2.5,4,5,15,3g/mol,3g/mol,98.0,21,0,245.0,0,2,0,0,0,1,Y
+62,3g/mol,ALGINIC ACID,-3.7,6,13,6,3g/mol,3g/mol,202.0,27,0,541.0,0,0,10,0,0,1,Y
+63,2g/mol,ALKANNA TINCTORIA EXTRACT,3.0,3,5,3,2g/mol,2g/mol,94.8,21,0,501.0,0,1,0,0,0,1,Y
+64,1g/mol,ALLANTOIN,-2.2,4,3,1,1g/mol,1g/mol,113.0,11,0,225.0,0,0,1,0,0,1,Y
+65,3g/mol,ALLANTOIN ACETYL METHIONINE,,6,7,6,3g/mol,3g/mol,205.0,23,0,397.0,0,0,2,0,0,2,Y
+66,3g/mol,ALLANTOIN ASCORBATE,,8,9,3,3g/mol,3g/mol,221.0,23,0,458.0,0,2,1,0,0,2,Y
+67,4g/mol,ALLANTOIN BIOTIN,,7,7,6,4g/mol,4g/mol,217.0,27,0,523.0,0,3,1,0,0,2,Y
+68,4g/mol,ALLANTOIN CALCIUM PANTOTHENATE,,8,8,7,4g/mol,4g/mol,220.0,27,2,464.0,0,1,1,0,0,3,Y
+69,3g/mol,ALLANTOIN GALACTURONIC ACID,,9,10,2,3g/mol,3g/mol,241.0,24,0,431.0,0,4,2,0,0,2,Y
+70,6g/mol,ALLANTOIN GLYCYRRHETINIC ACID,,6,7,2,6g/mol,6g/mol,188.0,45,0,1190.0,0,9,1,0,0,2,Y
+71,2g/mol,ALLANTOIN PABA,,6,6,2,2g/mol,2g/mol,177.0,21,0,353.0,0,0,1,0,0,2,Y
+72,3g/mol,ALLANTOIN POLYGALACTURONIC ACID,,9,10,2,3g/mol,3g/mol,241.0,24,0,431.0,0,5,1,0,0,2,Y
+73,1g/mol,ALLYL CAPROATE,2.7,0,2,7,1g/mol,1g/mol,26.3,11,0,119.0,0,0,0,0,0,1,Y
+74,1g/mol,ALUMINA,,0,3,0,1g/mol,1g/mol,43.4,5,0,34.2,0,0,0,0,0,1,Y
+75,2g/mol,ALUMINUM ACETATE,,0,6,0,2g/mol,2g/mol,120.0,13,0,25.5,0,0,0,0,0,4,Y
+76,1g/mol,ALUMINUM BEHENATE,,0,6,57,1g/mol,1g/mol,120.0,73,0,245.0,0,0,0,0,0,4,Y
+77,3g/mol,ALUMINUM BENZOATE,,0,6,9,3g/mol,3g/mol,78.9,28,0,457.0,0,0,0,0,0,1,Y
+78,4g/mol,ALUMINUM CAPRYLATE,,0,6,15,4g/mol,4g/mol,120.0,31,0,83.7,0,0,0,0,0,4,Y
+79,1g/mol,ALUMINUM CHLORIDE,,0,0,0,1g/mol,1g/mol,0.0,4,0,8.0,0,0,0,0,0,1,Y
+80,1g/mol,ALUMINUM DIACETATE,,1,5,4,1g/mol,1g/mol,53.6,10,0,109.0,0,0,0,0,0,2,Y
+81,1g/mol,ALUMINUM DICHLOROHYDRATE,,4,6,0,1g/mol,1g/mol,4.0,8,0,0.0,0,0,0,0,0,8,Y
+82,1g/mol,ALUMINUM DILINOLEATE,,0,12,75,1g/mol,1g/mol,241.0,122,0,671.0,0,0,12,0,3,5,Y
+83,4g/mol,ALUMINUM DIMYRISTATE,,1,5,28,4g/mol,4g/mol,53.6,34,0,393.0,0,0,0,0,0,2,Y
+84,8g/mol,ALUMINUM FLUORIDE,,0,3,0,8g/mol,8g/mol,0.0,4,0,8.0,0,0,0,0,0,1,Y
+85,1g/mol,ALUMINUM FORMATE,,0,6,0,1g/mol,1g/mol,120.0,10,0,7.5,0,0,0,0,0,4,Y
+86,1g/mol,ALUMINUM GLYCINATE,,4,6,0,1g/mol,1g/mol,69.2,9,0,37.4,0,0,0,0,0,5,Y
+87,7g/mol,ALUMINUM HYDROXIDE,,3,3,0,7g/mol,7g/mol,3.0,4,0,0.0,0,0,0,0,0,4,Y
+88,8g/mol,ALUMINUM ISOSTEARATE,,0,6,42,8g/mol,8g/mol,120.0,61,0,206.0,0,0,0,0,0,4,Y
+89,2g/mol,ALUMINUM LACTATE,,3,9,9,2g/mol,2g/mol,140.0,19,0,292.0,0,0,3,0,0,1,Y
+90,5g/mol,ALUMINUM METHIONATE,,0,18,0,5g/mol,5g/mol,311.0,29,0,996.0,0,0,0,0,0,1,Y
+91,7g/mol,ALUMINUM MYRISTATE,,0,6,33,7g/mol,7g/mol,120.0,49,0,149.0,0,0,0,0,0,4,Y
+92,4g/mol,ALUMINUM PCA,,3,9,0,4g/mol,4g/mol,208.0,28,0,149.0,0,3,0,0,0,4,Y
