@@ -27,10 +27,9 @@ with open('Properties_Chembk_new.csv', 'w', encoding='UTF8', newline="") as f:
         writer = csv.writer(f)
         writer.writerow(header)
 
-        count_e = 0
+        count_e = 0  # error count
         for index, row in df.iterrows():
             synonyms = ""
-            cas = ""
             formula = ""
             weight = ""
             density = ""
