@@ -5,7 +5,6 @@ import numpy as np
 
 # Read data into dataframe
 # Data Cleaning
-# TODO: format all the resources output
 df_chembk = pd.read_csv("ScrapingResults/Properties_ChemBK_new.csv", header = 0)
 df_chembk['Chemical Name'] = df_chembk['Chemical Name'].str.upper()
 df_wiki = pd.read_excel("ScrapingResults/Properties_Wiki_new.xlsx", header = 0)
