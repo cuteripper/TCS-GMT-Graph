@@ -4,7 +4,7 @@ import numpy as np
 
 
 # Read data into dataframe
-# Data Cleaning
+# Align formats
 df_chembk = pd.read_csv("ScrapingResults/Properties_ChemBK_new.csv", header = 0)
 df_chembk['Chemical Name'] = df_chembk['Chemical Name'].str.upper()
 df_wiki = pd.read_excel("ScrapingResults/Properties_Wiki_new.xlsx", header = 0)
@@ -14,7 +14,7 @@ df_other = pd.read_excel("ScrapingResults/Properties_Other_Source_new.xlsx", hea
 df_other = df_other.rename(columns={'Id': 'id'})
 df_other = df_other.drop_duplicates("Chemical Name")
 
-# Examine df
+# Examine dataframes
 print(df_chembk.head())
 print(df_chembk.shape)
 
