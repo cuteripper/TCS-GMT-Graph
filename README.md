@@ -3,7 +3,7 @@
 
 ## Data Scraping
 ### CompTox
-The CompTox Chemicals Dashboard provides public access to chemical data. It is a widely used resource for chemistry, toxicity, and exposure information for hundreds of thousands of chemicals.\
+The CompTox Chemicals Dashboard provides public access to chemical data. It is a widely used resource for chemistry, toxicity, and exposure information for hundreds of thousands of chemicals.
 - Source Link: [CompTox Dashboard](https://comptox.epa.gov/dashboard/)
 - Data download: [CompTox data files](https://epa.figshare.com/articles/dataset/The_Chemical_and_Products_Database_CPDat_MySQL_Data_File/5352997)
 #### Main steps:
