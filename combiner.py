@@ -31,10 +31,13 @@ df_other = df_other.set_index('Chemical Name')
 
 df_other.head()
 
+# Fill NAs with other data sources
 df_chembk_wiki = df_chembk.fillna(df_wiki)
 df_merged = df_chembk_wiki.fillna(df_other)
 
+# Examine remaining NAs
 df_chembk_wiki.isna().sum()
 df_merged.isna().sum()
 
+# Output result
 df_merged.reset_index().set_index('id').to_csv("ScrapingResults/Properties_merged.csv")

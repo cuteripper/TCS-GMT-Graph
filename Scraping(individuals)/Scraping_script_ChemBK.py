@@ -1,5 +1,3 @@
-# Original (for group)
-
 # -- Import libraries --
 from cmath import e
 import pandas as pd
@@ -14,18 +12,17 @@ import urllib.parse
 df = pd.read_excel("Property_and_functionalities_List.xlsx", header=0)
 print(len(df))
 
-# Drop duplicate chemical names
+# Drop duplicate chemical names if needed
 # df = df.drop_duplicates(subset='Chemical Name', keep="last")
 # print(len(df))
-df = df.iloc[:1600]
+# df = df.iloc[:1600]
 
 # Set file header
-# header = ['id, Chemical Name', 'Macthed Chemical', 'CAS', 'Synonyms', 'Molecular Formula', 'Molecular Weight', 'Density', 'Water Solubility']
 header = ['id', 'Chemical Name', 'LogP (Partition coefficient)', 'LogS (water solubility of the ingredient)',
           'Molecular weight', 'Density', 'Chemical formula', 'Structure', 'Synonyms', 'Functionalities']
 
 # Write to file
-with open('chembk_1129_new_1.csv', 'w', encoding='UTF8', newline="") as f:
+with open('Properties_Chembk_new.csv', 'w', encoding='UTF8', newline="") as f:
     try:
         writer = csv.writer(f)
         writer.writerow(header)
@@ -56,36 +53,42 @@ with open('chembk_1129_new_1.csv', 'w', encoding='UTF8', newline="") as f:
                 rows = tables[0].find_all('tr')
                 for row in rows:
                     tds = row.find_all('td')
+
+                    # Extract Synonyms into an array
                     if tds[0].text == 'Synonyms':
                         synonyms = [a.text for a in tds[1].find_all('a')]
                         
-                    # Grab CAS
-                    if tds[0].text == "CAS":
-                        cas = tds[1].text
 
                 ## infos
                 rows = tables[1].find_all('tr')
                 for row in rows:
                     tds = row.find_all('td')
+                    
+                    # Extract formula
                     if tds[0].text == 'Molecular Formula':
                         formula = tds[1].text
 
-                        
+                    # Extract molecular weight
                     if tds[0].text == 'Molar Mass':
                         weight = tds[1].text
                         
-                    # Grab Density
+                    # Extract Density
                     if tds[0].text == "Density":
                         density = tds[1].text
 
-                    # Grab Water Solubility
+                    # Extract Water Solubility
                     if tds[0].text == "Water Solubility":
                         water_solubility = tds[1].text
                 
                 print(chemical_name, "Completed")
+
+                # Write result to csv file
                 writer.writerow([index, chemical_name, "", water_solubility,
                                 weight, density, formula, "", synonyms, ""])
+
             except Exception as e:
+                
+                # Write only the index and chemical name if no results found / if errors occured.
                 writer.writerow(
                     [index, chemical_name, "", "", "", "", "", "", ""])
                 count_e += 1
