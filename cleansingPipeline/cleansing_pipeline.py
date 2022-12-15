@@ -3,6 +3,10 @@ import numpy as np
 
 
 def data_overview(df):
+     """get null and duplicate values and print the count
+      Args:
+          df (DataFrame): Cosing dataframe
+    """
     print(df.head())
     print(df.isna().sum())
     print("Duplicate Count")
@@ -13,6 +17,12 @@ def data_overview(df):
     
 
 def remove_duplicate_smiles(df):
+     """remove ingredients with duplicate smiles
+      Args:
+          df (DataFrame): Cosing dataframe without duplicate and null values
+      Returns:
+          res: Cosing clean dataframe without duplicate smiles instances.
+    """
     df["alias"] = np.nan
     print(df.isna().sum())
     print(df.shape)
@@ -43,6 +53,12 @@ def remove_duplicate_smiles(df):
 
 
 def do_cleansing(df):
+    """cleansing dataframe and saving unique chemical names to provide it to scrappers
+      Args:
+          df (DataFrame): Cosing clean dataframe
+      Returns:
+          res: Cosing clean dataframe without duplicate smiles instances.
+    """
     df.index = df.index.astype(int)
     df.drop_duplicates(inplace=True)
     df = remove_duplicate_smiles(df)
