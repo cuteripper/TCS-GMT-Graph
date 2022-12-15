@@ -13,5 +13,5 @@ Main steps:
    - Use DTXSID to find corresponding functionalities in functional_use_dictionary_20201216.csv
 5. Find properties
    - Use DTXSID to find corresponding properties in each url.
-   - Urls are fomulated as: https://comptox.epa.gov/dashboard/chemical/properties/DTXSID50331972 + DTXSID
+   - Urls are fomulated as: https://comptox.epa.gov/dashboard/chemical/properties/ + DTXSID
 
