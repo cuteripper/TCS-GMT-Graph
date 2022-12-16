@@ -11,6 +11,7 @@
 3. ScrapingResults - This folder contains all the output files from each source.
 4. cleansingPipeline - This folder contains code to clean the input cosing data.
 5. ScrapingPipeline.ipynb - This script is the overall master file which calls other scripts to extract properties and functionalities.
+6. KnowledgeGraph.ipynb - This script contains functions to construct knowledge graphs based on properties and certain thresholds.
 6. Wikipedia_AllFunctionalities.csv - The keyword file used to search for functionality in the Wikipedia text.
 7. combiner.py - The file which combines outputs from multiple sources into one source.
 8. cosing_clean.csv and cosing_clean.xlsx- The files which contain the cleaned chemical names.
