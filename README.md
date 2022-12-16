@@ -63,3 +63,5 @@ Wikipedia can be a great source to extract properties from the table on its page
 4. Extract properties and functionalities.
 
 ## Data Integration
+1. There should be four output propertiy files in the ScrapingResults folder after running the scraping scripts of each source.
+2. Run the combiner.py file, which will combine the results into "Perperties_merged.csv" in the ScrapingResults folder.
