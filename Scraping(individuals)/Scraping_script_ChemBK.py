@@ -99,7 +99,7 @@ def scrapChemBK(header, df, outputFileName):
 if __name__ == '__main__':
     
     # Read clean chemical list into dataframe
-    df = pd.read_excel("cleansingPipeline/Property_and_functionalities_List.xlsx", header = 0)
+    df = pd.read_excel("cleansingPipeline/clean_chemical_list.xlsx", header = 0)
     print(len(df))
 
     # Drop duplicate chemical names if needed

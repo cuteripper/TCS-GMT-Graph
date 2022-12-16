@@ -48,7 +48,7 @@ We used BeautifulSoup to send request to the website and extract the properties 
 - Source link: [ChemBK website](https://www.chembk.com/en)
 
 #### Overall flow:
-1. Read the clean chemical list file "Property_and_functionalities_List.xlsx", which generated after the data cleaning process (eg. removing duplicates)
+1. Read the clean chemical list file "clean_chemical_list.xlsx", which generated after the data cleaning process (eg. removing duplicates)
 2. Send request to ChemBK by defining the URL using BeautifulSoup and parse the HTML table with information we need.
 3. Save the extracted data to "ScrapingResults/Properties_ChemBK_new.csv"
 
