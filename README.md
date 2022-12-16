@@ -7,9 +7,16 @@
      - Scraping_script_ChemBK.py - This script contains scraping code for ChemBK.
      - Scraping_script_Wikipedia.py - This script contains scraping code for Wikipedia.
      - Scraping_script_other_sources.py - This script contains scraping code for other sources.
+
 2. ScrapingResults - This folder contains all the output files from each source.
+      - Properties_ChemBK_new.csv - Scraping results from ChemBK
+      - Properties_merged.csv - The final property list after merging results from all the data sources.
+      - Properties_OtherSource.xlsx - Scraping results from ComTox
+      - Properties_Wiki.xlsx - Scraping results from Wikipedia
+      - Pubchem_properties.csv - Scraping results from PubChem
+
 3. cleansingPipeline - This folder contains code to clean the input cosing data.
-     - clean_chemical_list.xlsx - The file which contain the cleaned chemical names.
+     - clean_chemical_list.xlsx - The file which contains the cleaned chemical names.
 4. KnowledgeGraph.ipynb - This script contains functions to construct knowledge graphs based on properties and certain thresholds.
 5. Wikipedia_AllFunctionalities.csv - The keyword file used to search for functionality in the Wikipedia text.
 6. combiner.py - The file which combines outputs from multiple sources into one source.
@@ -21,12 +28,12 @@ The cosing dataset is used to clean the chemical names and provide a clean ingre
 
 **Process of cleaning:**
 
-1.Initially 3617 records in the file\
-2.Smiles and Canonical_Smiles are 1 to 1 mapping, remove smiles\
-3.Remove 241 duplicated rows\
-4.Duplicated Canonical_Smiles: merge synonyms (414 rows)\
-5.Duplicated Chemical Names with different smiles: leave it there\
-6.Cleaned dataset: 2962 rows, 18 columns for web scraping
+1. Initially 3617 records in the file
+2. Smiles and Canonical_Smiles are 1 to 1 mapping, remove smiles
+3. Remove 241 duplicated rows
+4. Duplicated Canonical_Smiles: merge synonyms (414 rows)
+5. Duplicated Chemical Names with different smiles: leave it there
+6. Cleaned dataset: 2962 rows, 18 columns for web scraping
 
 ## Data Scraping
 ### CompTox
