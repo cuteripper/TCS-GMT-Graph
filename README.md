@@ -26,3 +26,10 @@ The Pubchem website provides properties, chemical uses, and a bunch of other inf
 4. We parse this JSON to extract properties and functionalities.
 
 ### Wikipedia
+Wikipedia can be a great source to extract properties from the table on its page, and funcitonalities from sections like 'Uses'.
+- Source Link: https://www.wikipedia.org
+### Overall Flow:
+1. Get clean chemical name and try compiling a direct wikipedia link.
+2. If link not found, go to the search bar using selenium and search for the name.
+3. Go to the top result in the search.
+4. Extract properties and functionalities.
