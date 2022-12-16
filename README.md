@@ -7,7 +7,7 @@
      - Scraping_script_ChemBK.py - This script contains scraping code for ChemBK.
      - Scraping_script_Wikipedia.py - This script contains scraping code for Wikipedia.
      - Scraping_script_other_sources.py - This script contains scraping code for other sources.
-     - 
+     
 3. ScrapingResults - This folder contains all the output files from each source.
 4. cleansingPipeline - This folder contains code to clean the input cosing data.
 5. ScrapingPipeline.ipynb - This script is the overall master file which calls other scripts to extract properties and functionalities.
@@ -17,6 +17,9 @@
 8. cosing_clean.csv and cosing_clean.xlsx- The files which contain the cleaned chemical names.
 
 ## Data Cleaning
+
+The cosing dataset is used to clean the chemical names and provide a clean ingredients list output to feed it to the scrappers for the purpose of extracting properties.
+
 Process:
 
 1.Initially 3617 records in the file\
