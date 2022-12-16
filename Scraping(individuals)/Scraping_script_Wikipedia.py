@@ -110,12 +110,13 @@ def get_functionalities(ingredients_df,functionality_file_name):
 
 if __name__ == '__main__':
 
-    functionality_file_name = 'All_functionalities.csv'
-    ingredients_df = pd.read_excel("cosing_clean (1).xlsx")
+    functionality_file_name = './Wikipedia_All_functionalities.csv'
+    ingredients_df = pd.read_excel("./cleansingPipeline/clean_chemical_list.xlsx")
     
     properties_df = get_properties(ingredients_df.iloc[0:3])
 
     functionalites_df = get_functionalities(ingredients_df.iloc,functionality_file_name)
 
-    properties_df.to_csv("All_wiki_properties.csv")
-    functionalites_df.to_csv("All_wiki_functionalities.csv")
+    # Output the result
+    properties_df.to_excel("./ScrapingResults/Properties_Wiki.xlsx")
+    # functionalites_df.to_csv("All_wiki_functionalities.csv")
