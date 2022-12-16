@@ -16,3 +16,7 @@ The CompTox Chemicals Dashboard provides public access to chemical data. It is a
    - Use DTXSID to find corresponding properties in each url.
    - Urls are fomulated as: "https://comptox.epa.gov/dashboard/chemical/properties/" + DTXSID
 
+### Pubchem
+The Pubchem website provides properties, chemical uses, and a bunch of other information about chemical compounds and substances.
+- Source link: https://pubchem.ncbi.nlm.nih.gov
+#### Overall flow:
