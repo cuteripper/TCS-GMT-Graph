@@ -6,7 +6,7 @@
      - Pubchem Scraping.ipynb - This script contains the scraping code for Pubchem.
      - Scraping_script_ChemBK.py - This script contains scraping code for ChemBK.
      - Scraping_script_Wikipedia.py - This script contains scraping code for Wikipedia.
-     - Scraping_script_other_sources.py - This script contains scraping code for other sources.
+     - [Removed]Scraping_script_other_sources.py - This script contains experimental scraping code for other sources. Please refer to the CompTox.py file for the finalized version.
 
 2. ScrapingResults - This folder contains all the output files from each source.
       - Properties_ChemBK_new.csv - Scraping results from ChemBK
@@ -38,14 +38,15 @@ The cosing dataset is used to clean the chemical names and provide a clean ingre
 ## Data Scraping
 ### CompTox
 The CompTox Chemicals Dashboard provides public access to chemical data. It is a widely used resource for chemistry, toxicity, and exposure information for hundreds of thousands of chemicals.
+- Main script: CompTox.py (other files related to OtherSources are experimental, please refer to the main script for the finalized version)
 - Source Link: [CompTox Dashboard](https://comptox.epa.gov/dashboard/)
 - Data download: [CompTox data files](https://epa.figshare.com/articles/dataset/The_Chemical_and_Products_Database_CPDat_MySQL_Data_File/5352997)
 #### Main steps:
 1. Get unique identifier
    - Use chemical_dictionary_20201216.csv to find DTXSID (unique identifier) for each chemical from cosing data
-3. Find functionalities
+2. Find functionalities
    - Use DTXSID to find corresponding functionalities in functional_use_dictionary_20201216.csv
-5. Find properties
+3. Find properties
    - Download and install [web driver](https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/) to render from dynamic web page.
    - Use DTXSID to find corresponding properties in each url.
    - Urls are fomulated as: "https://comptox.epa.gov/dashboard/chemical/properties/" + DTXSID
