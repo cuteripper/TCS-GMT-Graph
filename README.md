@@ -42,6 +42,16 @@ The Pubchem website provides properties, chemical uses, and a bunch of other inf
 3. We download the JSON itself from this link and store it locally.
 4. We parse this JSON to extract properties and functionalities.
 
+### ChemBK
+ChemBK website provdies information such as molecular weight, density, chemical formula, and synonyms of certain chemicals.
+We used BeautifulSoup to send request to the website and extract the properties by parsing the response.
+- Source link: [ChemBK website](https://www.chembk.com/en)
+
+#### Overall flow:
+1. Read the clean chemical list file "Property_and_functionalities_List.xlsx", which generated after the data cleaning process (eg. removing duplicates)
+2. Send request to ChemBK by defining the URL using BeautifulSoup and parse the HTML table with information we need.
+3. Save the extracted data to "ScrapingResults/Properties_ChemBK_new.csv"
+
 ### Wikipedia
 Wikipedia can be a great source to extract properties from the table on its page, and funcitonalities from sections like 'Uses'.
 - Source Link: https://www.wikipedia.org
