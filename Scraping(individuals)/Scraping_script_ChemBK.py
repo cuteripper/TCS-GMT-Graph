@@ -14,6 +14,9 @@ import requests
 from bs4 import BeautifulSoup
 import urllib.parse
 
+'''
+Function to scrape ChemBK's webpage using BeautifulSoup
+'''
 def scrapChemBK(header, df, outputFileName):
     # Write to file
     with open(outputFileName, 'w', encoding='UTF8', newline="") as f:

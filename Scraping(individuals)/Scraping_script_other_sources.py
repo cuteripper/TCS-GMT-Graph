@@ -92,7 +92,7 @@ import pandas as pd
 # In[ ]:
 
 
-cosing = pd.read_excel("cosing_clean.xlsx")
+cosing = pd.read_excel("./cosing_clean.xlsx")
 cosing.head()
 
 
@@ -649,7 +649,8 @@ out
 # In[ ]:
 
 
-out.to_csv('res.csv')
+# out.to_csv('res.csv')
+out.to_csv('./ScrapingResults/Properties_Other_Source.csv')
 
 
 # In[ ]:
