@@ -17,6 +17,7 @@
 8. cosing_clean.csv and cosing_clean.xlsx- The files which contain the cleaned chemical names.
 
 ## Data Cleaning
+Process
 1.Initially 3617 records in the file\
 2.Smiles and Canonical_Smiles are 1 to 1 mapping, remove smiles\
 3.Remove 241 duplicated rows\
