@@ -64,8 +64,8 @@ def do_cleansing(df):
     df = remove_duplicate_smiles(df)
     df.drop('Smiles',axis=1, inplace=True)
     with pd.ExcelWriter("Ingred_v2.xlsx") as writer:
-        Chem_Name_1['Chemical Name'].to_excel(writer, sheet_name='Unique chemical name', index=False)
-        Chem_Name_2['Chemical Name'].to_excel(writer, sheet_name='Unique Canonical_smiles', index=False)
+        df['Chemical Name'].to_excel(writer, sheet_name='Unique chemical name', index=False)
+        df['Chemical Name'].to_excel(writer, sheet_name='Unique Canonical_smiles', index=False)
     return df
 
 
