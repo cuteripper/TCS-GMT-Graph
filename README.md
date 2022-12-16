@@ -20,3 +20,9 @@ The CompTox Chemicals Dashboard provides public access to chemical data. It is a
 The Pubchem website provides properties, chemical uses, and a bunch of other information about chemical compounds and substances.
 - Source link: https://pubchem.ncbi.nlm.nih.gov
 #### Overall flow:
+1. We get the substance id through the Pubchem API.
+2. Construct a custom link to download the JSON.
+3. We download the JSON itself from this link and store it locally.
+4. We parse this JSON to extract properties and functionalities.
+
+## Wikipedia
