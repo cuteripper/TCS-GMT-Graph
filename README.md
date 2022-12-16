@@ -19,7 +19,7 @@
 
 The cosing dataset is used to clean the chemical names and provide a clean ingredients list output to feed it to the scrappers for the purpose of extracting properties.
 
-Process:
+**Process of cleaning:**
 
 1.Initially 3617 records in the file\
 2.Smiles and Canonical_Smiles are 1 to 1 mapping, remove smiles\
